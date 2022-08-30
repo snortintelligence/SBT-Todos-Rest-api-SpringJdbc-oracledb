@@ -1,0 +1,11 @@
+# configure server port
+server:
+ port: 4040
+
+# Oracle Database configuration
+spring:
+ datasource:
+  driver-class-name: oracle.jdbc.driver.OracleDriver
+  username: local
+  url: jdbc:oracle:thin:@localhost:1521:xe
+  password: local
